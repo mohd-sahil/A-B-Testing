@@ -6,6 +6,8 @@ A/B testing refers to a process of experimentation, wherein two or more versions
 
 In A/B testing, A refers to ‘control’ or the original testing variable. Whereas B refers to ‘variation’ or a new version of the original testing variable.
 
+<img src = "images/Screenshot 2022-02-14 102432.png" width = "500">
+
 We can perform the A/B test on the following:
    * Site Pages, Flow, and Elements
    * Business Model
