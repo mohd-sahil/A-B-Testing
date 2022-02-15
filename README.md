@@ -1,12 +1,16 @@
 # A/B-Testing-with-SQL
 
+
+
+### Concept of A/B Testing
+
 A/B testing refers to a process of experimentation, wherein two or more versions of a variable like web page, page element, etc. are shown to different segments of users at the same time to determine which version leaves the maximum impact and drive business metrics.
 
-<img src = "images/Screenshot 2022-02-13 165748.png" width = "700">
+<img src = "images/Screenshot 2022-02-13 165748.png" width = "650">
 
 In A/B testing, A refers to ‘control’ or the original testing variable. Whereas B refers to ‘variation’ or a new version of the original testing variable.
 
-<img src = "images/Screenshot 2022-02-14 102432.png" width = "500">
+<img src = "images/Screenshot 2022-02-14 102432.png" width = "400">
 
 We can perform the A/B test on the following:
    * Site Pages, Flow, and Elements
@@ -22,4 +26,4 @@ The benefits of using A/B tests are as follows:
   * Uses Actual Site Visitors
   * Data-Driven Decision Making
 
-As we have seen lots of company applications and benefits to the company using this test. So, A/B testing is pretty much required for the company for a rapid expansion of that company.
+**Therefore A/B testing is required for solving the business problems in a scientific way**
