@@ -1,7 +1,7 @@
 /*
-Use this table to 
-compute order_binary for the 30 day window after the test_start_date
-for the test named item_test_2
+ORDER BINARY Metric
+(computing order_binary for the 30 day window after the test_start_date
+for the test named item_test_2)
 */
 
 SELECT test_assignment,
@@ -36,9 +36,9 @@ GROUP BY test_assignment
 -------------------------------------------------------------------------------------------------------------------------------
 
 /*
-Use this table to 
-compute view_binary for the 30 day window after the test_start_date
-for the test named item_test_2
+VIEW ITEM Metric 
+(computing view_binary for the 30 day window after the test_start_date
+for the test named item_test_2)
 */
 
 SELECT
