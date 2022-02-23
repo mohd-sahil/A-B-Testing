@@ -2,12 +2,13 @@
 Figuring out how many tests we have running right now
 */
 
-SELECT distinct parameter_value as test_id 
-FROM dsv1069.events 
-WHERE
-event_name = 'test_assignment'
-AND 
-parameter_name = 'test_id'
+SELECT DISTINCT parameter_value AS test_id
+FROM dsv1069.events
+WHERE 
+  event_name = 'test_assignment'
+    AND 
+  parameter_name = 'test_id'
+
 
 --------------------------------------------------------------------------------------------------------
 
@@ -17,7 +18,7 @@ Check for potential problems with test assignments
 
 SELECT 
   parameter_value as test_id,
-  date(event_time) AS day,
+  DATE(event_time) AS day,
   COUNT(*)         AS event_rows
 FROM dsv1069.events 
 WHERE
@@ -26,7 +27,8 @@ AND
 parameter_name = 'test_id'
 GROUP BY 
   parameter_value,
-  date(event_time)
+  DATE(event_time)
+
 
 --------------------------------------------------------------------------------------------------------
 
@@ -46,17 +48,13 @@ SELECT event_id,
                WHEN parameter_name = 'test_assignment' THEN parameter_value
                ELSE NULL
            END) AS test_assignment
-FROM 
-  dsv1069.events
-WHERE 
-  event_name = 'test_assignment'
-GROUP BY 
-  event_id,
-  event_time,
-  user_id,
-  platform
-ORDER BY 
-  event_id
+FROM dsv1069.events
+WHERE event_name = 'test_assignment'
+GROUP BY event_id,
+         event_time,
+         user_id,
+         platform
+ORDER BY event_id
 
 
 
