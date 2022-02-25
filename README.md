@@ -27,3 +27,22 @@ The benefits of using A/B tests are as follows:
   * Data-Driven Decision Making
 
 **Therefore A/B testing is required for solving the business problems in a scientific way**
+
+
+
+### Conclusion
+
+** Testing at Items Level
+
+For View Item Metric
+  * The test group 1 had 2.3 % more viewed items compared to test group 0
+  * p-value for this lift is 0.25, which does not meet our threshold for significance
+  * There is no statistically significant change to the View Item metric as a result of the treatment
+
+
+For Order Binary Metric
+  * In this case, p-value of 0.93 is observed
+  * And the lift after treatment is - 0.5 %
+  * In this case also, no statiscally significant change to the Order binary metric
+
+
