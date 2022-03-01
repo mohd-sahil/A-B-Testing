@@ -27,9 +27,17 @@ The benefits of using A/B tests are as follows:
   * Data-Driven Decision Making
 
 
+## Conclusions
 
 
-### Conclusion
+**Testing at Users Level**
+
+For Order Binary Metric
+  * The test group 1 had 5 % more users with orders compared to test group 0
+  * p-value for this lift is 0.05, which does not meet our threshold for significance
+  * There is no statistically significant change to the Order Binary metric as a result of the treatment
+
+<img src ="images/Users with orders (usrs-lvl).png" width = "650">
 
 **Testing at Items Level**
 
@@ -41,6 +49,8 @@ For View Item Metric
 
 For Order Binary Metric
   * In this case, p-value of 0.93 is observed
-  * And the lift after treatment is - 0.5 %
-  * There is no statiscally significant change to the Order binary metric
+  * And the lift after treatment is - 0.5 % 
+  * There is no statiscally significant change to the Order binary metric as a result of the treatment
 <img src = "images/order-mtrc (items lvl).png" width = "650">
+
+
